@@ -13,6 +13,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "IX.Animus.GlobalContracts", "src\IX.Animus.GlobalContracts\IX.Animus.GlobalContracts.xproj", "{953693FD-EDC4-4E85-A730-217BF106AFE5}"
 EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "IX.Animus.Math", "src\IX.Animus.Math\IX.Animus.Math.xproj", "{D85388AA-2A24-4BB0-BA28-ECFA7B42FEB2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,11 +25,16 @@ Global
 		{953693FD-EDC4-4E85-A730-217BF106AFE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{953693FD-EDC4-4E85-A730-217BF106AFE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{953693FD-EDC4-4E85-A730-217BF106AFE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D85388AA-2A24-4BB0-BA28-ECFA7B42FEB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D85388AA-2A24-4BB0-BA28-ECFA7B42FEB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D85388AA-2A24-4BB0-BA28-ECFA7B42FEB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D85388AA-2A24-4BB0-BA28-ECFA7B42FEB2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{953693FD-EDC4-4E85-A730-217BF106AFE5} = {172923C9-99FD-410C-913B-ACBEF89589DC}
+		{D85388AA-2A24-4BB0-BA28-ECFA7B42FEB2} = {172923C9-99FD-410C-913B-ACBEF89589DC}
 	EndGlobalSection
 EndGlobal

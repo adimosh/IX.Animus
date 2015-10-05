@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Runtime.Serialization;
 
-namespace IX.Animus.GlobalContracts
+namespace IX.Animus.Math
 {
     [DataContract]
     public class PlanarCoordinates : Coordinates
@@ -25,7 +25,7 @@ namespace IX.Animus.GlobalContracts
             int xDistance = otherCoordinates.X - X;
             int yDistance = otherCoordinates.Y - Y;
 
-            return Math.Sqrt(xDistance * xDistance + yDistance * yDistance);
+            return System.Math.Sqrt(xDistance * xDistance + yDistance * yDistance);
         }
     }
 }

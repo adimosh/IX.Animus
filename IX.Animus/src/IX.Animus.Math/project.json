@@ -1,18 +1,18 @@
+﻿
 {
   "version": "1.0.0-*",
-  "description": "IX.Animus.GlobalContracts Class Library",
+  "description": "IX.Animus.Math Class Library",
   "authors": [ "Adrian" ],
   "tags": [ "" ],
   "projectUrl": "",
   "licenseUrl": "",
-  "frameworks": {
-    "dotnet": {
 
-    }
+  "frameworks": {
+    "dotnet": { }
   },
+
   "dependencies": {
-    "IX.Animus.Math": "",
     "System.Runtime.Serialization.Primitives": "4.0.10",
-    "System.Collections": "4.0.10"
+    "System.Runtime.Extensions": "4.0.10"
   }
 }
