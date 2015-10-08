@@ -33,5 +33,11 @@ namespace IX.Animus.GlobalContracts.Containers
         /// </summary>
         [DataMember]
         public Dictionary<int, Resource> Resources { get; set; }
+
+        /// <summary>
+        /// The resources, by Id.
+        /// </summary>
+        [DataMember]
+        public Dictionary<int, Characteristic> Characteristics { get; set; }
     }
 }

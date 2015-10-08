@@ -1,0 +1,23 @@
+﻿{
+  "version": "1.0.0-*",
+  "description": "AnimusOnline.GameUniverseData Class Library",
+  "authors": [ "adrian.mos" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+  "frameworks": {
+    "dotnet": {
+      "dependencies": {
+        "Microsoft.CSharp": "4.0.0",
+        "System.Collections": "4.0.10",
+        "System.Linq": "4.0.0",
+        "System.Runtime": "4.0.20",
+        "System.Threading": "4.0.10"
+      }
+    }
+  },
+  "dependencies": {
+    "IX.Animus.GlobalContracts": "1.0.0-*",
+    "IX.Animus.Math": "1.0.0-*"
+  }
+}

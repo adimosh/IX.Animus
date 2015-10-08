@@ -1,0 +1,30 @@
+﻿{
+  "version": "1.0.0-*",
+  "description": "TestApp Console Application",
+  "authors": [ "adrian.mos" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+
+  "dependencies": {
+    "IX.Animus.GlobalContracts": "1.0.0-*",
+    "IX.Animus.Math": "1.0.0-*"
+  },
+
+  "commands": {
+    "TestApp": "TestApp"
+  },
+
+  "frameworks": {
+    "dotnet": {
+      "dependencies": {
+        "Microsoft.CSharp": "4.0.0",
+        "System.Collections": "4.0.10",
+        "System.Console": "4.0.0-beta-23225",
+        "System.Linq": "4.0.0",
+        "System.Threading": "4.0.10"
+      }
+    }
+  },
+  "userSecretsId": "aspnet5-TestApp-20151008053528"
+}
