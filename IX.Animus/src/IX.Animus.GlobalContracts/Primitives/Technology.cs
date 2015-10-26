@@ -1,13 +1,13 @@
 ﻿using IX.Animus.GlobalContracts.HardCodedPrimitives;
+using System;
+using System.Collections.Generic;
 using System.Runtime.Serialization;
+using System.Threading.Tasks;
 
 namespace IX.Animus.GlobalContracts.Primitives
 {
-    /// <summary>
-    /// A non-resource-based characteristic that can be applied to entities.
-    /// </summary>
     [DataContract]
-    public class Characteristic
+    public class Technology
     {
         /// <summary>
         /// The Id.
@@ -34,9 +34,9 @@ namespace IX.Animus.GlobalContracts.Primitives
         public string ThumbnailUrl { get; set; }
 
         /// <summary>
-        /// The type of the characteristic.
+        /// The type of the technology.
         /// </summary>
         [DataMember]
-        public CharacteristicType Type { get; set; }
+        public TechnologyType Type { get; set; }
     }
 }
